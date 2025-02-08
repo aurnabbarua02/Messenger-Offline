@@ -1,0 +1,159 @@
+body{
+    margin: 0;  
+    background-color: bisque; 
+}
+.header{
+    background-color: white;
+    height: 60px;
+    padding: 15px;
+    position: fixed;   
+    width: 100%;     
+}
+
+.header i,p{
+    color: black;
+    padding-right: 10px;
+}
+.header i{
+    color: blue;
+}
+.header .btn{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+i{
+    cursor:pointer;
+}
+.header .right i{
+    padding-left: 10px;
+}
+.body{
+    padding-top: 80px;      
+    padding-left: 10px; 
+    padding-right: 10px; 
+    overflow: hidden;  
+    max-width: 700px; 
+    background-color: white; 
+    padding-bottom: 180px;   
+}
+
+.body .row .me p{
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;  
+    max-width: 250px;            
+}
+
+.body .row .she, img{        
+    float: left;               
+}
+.body .row .she p{
+    background-color: #EEEEEE;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 250px; 
+}
+@media screen and (min-width:500px) {
+    .body .row .me p{max-width:500px;}
+    .body .row .she p{max-width:500px;}
+}
+.head_body{
+    padding-top: 80px;       
+}
+.head_body a{
+    text-decoration: none;
+}
+.head_body div{
+    background-color: #EEEEEE;
+    padding-right: 5px;   
+    padding-left: 20px; 
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.modal-body img{
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    max-width: 500px;
+    border-radius: 0;
+}
+.hidden{
+    display: none;
+}
+.message_hidden{        
+    width: 100%;  
+    height: 100%;     
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    backdrop-filter: blur(5px);
+}
+
+.message_hidden .message_hidden_body{    
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    position: fixed;
+    border: black solid 5px;
+}
+.message_hidden .message_hidden_body p{
+    text-align: center;
+    font-size: 50px;  
+}
+.full-width-line { 
+    display: flex; 
+    align-items: center; 
+} 
+.full-width-line::before, 
+.full-width-line::after { 
+    content: ''; 
+    flex: 1; 
+    border-bottom: 1px solid black; 
+} 
+.full-width-line::before { 
+    margin-right: 10px; 
+} 
+.full-width-line::after { 
+    margin-left: 10px; 
+}
+.inputarea{
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.inputarea input{
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+}
+.inputarea .btn{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    padding: 0;
+}
+   
+   

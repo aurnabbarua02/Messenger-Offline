@@ -1,0 +1,53 @@
+                                                                                 
+2024-01-21    
+person0 -> Hello    
+person1 -> Hi     
+person1 -> You are preparing for admission. right?    
+person0 -> Yes   
+person1 -> I'm also preparing for this   
+person0 -> nice     
+person1 -> what are you reading now?     
+person0 -> RDBMS     
+person0 -> relational database management system
+person1 -> how many data integrities are in RDBMS?     
+person0 -> 4    
+person0 -> now I am reading DBMS Architecture 
+person0 -> DBMS Three schema Architecture   
+person1 -> 👍     
+person0 -> Data Models     
+person0 -> Data model schema     
+person0 -> Data Independence  
+person0 -> DBMS Languages      
+person0 -> ACID Properties in DBMS    
+person1 -> 👍   
+person0 -> ER (Entity Relationship) Diagram Model in DBMS      
+person0 -> DBMS ER Design Issues      
+person0 -> DBMS Mapping constraints  
+person0 -> DBMS Keys: Primary, Foreign, Candidate and Super Key 
+person1 -> 👍      
+person0 -> Generalization       
+person0 -> Specialization       
+person0 -> Aggregation      
+person1 -> 👍     
+2024-01-22      
+person0 -> Reduction of ER diagram to Table     
+person0 -> DBMS Relationship of Higher Degree     
+person0 -> Relational Model in DBMS     
+person1 -> have you stopped?  
+person0 -> no    
+person0 -> now i am reading DBMS Relational Calculus
+person1 -> 👍       
+person0 -> Functional Dependency   
+person0 -> DBMS Inference Rulehello 
+person0 -> hello
+person1 -> hi 
+person1 -> hi
+2025-01-23
+person1 -> hello     
+person1 -> hi, how r u? fine?  I knew               
+                 
+                 
+                 
+                 
+                 
+            
