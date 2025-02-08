@@ -18,10 +18,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if($text1 == '' && $text2 == ''){
         file_put_contents($file, PHP_EOL. date('Y-m-d') , FILE_APPEND);
     }
-    if($text1 == ''){
+    else if($text1 == ''){
         file_put_contents($file, PHP_EOL ."person1 -> ". $text2 , FILE_APPEND);
     }
-    if($text2 == ''){
+    else if($text2 == ''){
         file_put_contents($file, PHP_EOL ."person0 -> ". $text1 , FILE_APPEND);
     }
 }
